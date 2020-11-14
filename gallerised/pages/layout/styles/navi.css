@@ -13,9 +13,21 @@ File: Navigation CSS
 #topnav li{float:right; margin-right:30px;}
 #topnav li li{margin-right:0;}
 #topnav li span{display:block; margin:5px 0 0 0; padding:0; font-size:12px; font-weight:bold; font-family:Arial, Helvetica, sans-serif; text-transform:lowercase; color:#999999; background-color:#000000; font-weight:normal; line-height:normal;}
-#topnav li a:link, #topnav li a:visited, #topnav li a:hover{display:block; margin:0; padding:20px 0 0 0; color:#000000; background-color:#800000; text-transform:uppercase; border-top:2px solid #FFFFFF; font-weight:bold;}
+#topnav li a:link, #topnav li a:visited, #topnav li a:hover{
+    display:block; 
+    margin:0; 
+    padding:20px 0 0 0; 
+    color:#800000; 
+    background-color: transparent; 
+    text-transform:uppercase; 
+    border-top:2px solid #800000; 
+    font-weight:bold;}
 #topnav ul ul li a:link, #topnav ul ul li a:visited{border:none;}
-#topnav li a:hover, #topnav li.active a{color:#FFFF00; background-color:#800000; border-top-color:#FFFF00;}
+#topnav li a:hover, #topnav li.active a{
+    color:#FFFF00; 
+    /* background-color:#800000;  */
+    border-top-color:#FFFF00;
+}
 #topnav li li a:link, #topnav li li a:visited{width:150px; float:none; margin:0; padding:7px 10px; font-size:12px; font-weight:normal; color:#CCCCCC; background-color:#242424; border:none;}
 #topnav li li a:hover{color:#FFFF00; background-color:#999999;}
 #topnav ul ul{z-index:9999; position:absolute; left:-999em; height:auto; width:170px;}
