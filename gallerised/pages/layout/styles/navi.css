@@ -20,16 +20,16 @@ File: Navigation CSS
     color:#800000; 
     background-color: transparent; 
     text-transform:uppercase; 
-    border-top:2px solid #800000; 
+    border-top: 4px solid #800000; 
     font-weight:bold;}
 #topnav ul ul li a:link, #topnav ul ul li a:visited{border:none;}
 #topnav li a:hover, #topnav li.active a{
-    color:#FFFF00; 
+    color:#800000; 
     /* background-color:#800000;  */
-    border-top-color:#FFFF00;
+    border-top-color:#FFD700;
 }
 #topnav li li a:link, #topnav li li a:visited{width:150px; float:none; margin:0; padding:7px 10px; font-size:12px; font-weight:normal; color:#CCCCCC; background-color:#242424; border:none;}
-#topnav li li a:hover{color:#FFFF00; background-color:#999999;}
+#topnav li li a:hover{columns: #ffd700;; background-color:#999999;}
 #topnav ul ul{z-index:9999; position:absolute; left:-999em; height:auto; width:170px;}
 #topnav ul ul a{width:140px;}
 #topnav li:hover ul{left:auto;}
