@@ -120,3 +120,6 @@ div.wrapper h1, div.wrapper h2, div.wrapper h3, div.wrapper h4, div.wrapper h5, 
 
 #footer{padding:30px 0;}
 #footer p{margin:0; padding:0;}
+
+h1{font-family: Verdana, Geneva, Tahoma, sans-serif; color: maroon; text-align: center;}
+p{font-family: Verdana, Geneva, Tahoma, sans-serif; color: maroon; text-align: center;}
