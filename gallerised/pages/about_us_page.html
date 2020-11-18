@@ -23,8 +23,10 @@ Licence URI: http://www.os-templates.com/template-terms
       height: 375px;
       background-color: #800000;
     }
+
     </style>
 <title>EmoBOT</title>
+<meta charset="utf-8">
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
 <link rel="stylesheet" href="layout/styles/layout.css" type="text/css" />
 <script type="text/javascript" src="layout/scripts/jquery.min.js"></script>
@@ -33,12 +35,32 @@ Licence URI: http://www.os-templates.com/template-terms
 <script type="text/javascript">
 $(document).ready(function() {
 	$('#featured_slide_').s3Slider({
-		timeOut:6000 
+		timeOut:6000
 	});
 });
 </script>
-
 <!-- / s3slider -->
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Add icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+.btn {
+  background-color: #800000;
+  border: none;
+  color: white;
+  padding: 12px 16px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+  background-color: #FFDF00;
+}
+
+</style>
+</head>
 </head>
 <body id="top">
 <div class="wrapper col3">
@@ -59,32 +81,32 @@ $(document).ready(function() {
     <br class="clear" />
   </div>
 </div>
-<!-- VIDEO RECORDER SECTION -->
-<div class="wrapper col2">
-  <div id="container">
-    <video autoplay="true" id="videoElement">
-  
-    </video>
-  </div>
 
-  <script>
-    var video = document.querySelector("#videoElement");
-    
-    if (navigator.mediaDevices.getUserMedia) {
-      navigator.mediaDevices.getUserMedia({ video: true })
-        .then(function (stream) {
-          video.srcObject = stream;
-        })
-        .catch(function (err0r) {
-          console.log("Something went wrong!");
-        });
-    }
-    </script>
+<div class="wrapper col2">
+    <div class="gallery">
+
+      <ul>
+        <li><a rel="prettyPhoto[gallery1]" href="../images/demo/gallery/1.png" title="Image 1"><img src="../images/demo/gallery/Nesus.gif" alt="Title Text" /></a></li>
+        <li><a rel="prettyPhoto[gallery1]" href="../images/demo/gallery/4.png" title="Image 2"><img src="../images/demo/gallery/Arnado.gif" alt="Title Text" /></a></li>
+        <li><a rel="prettyPhoto[gallery1]" href="../images/demo/gallery/5.png" title="Image 3"><img src="../images/demo/gallery/Ferolino.gif" alt="Title Text" /></a></li>
+        <li><a rel="prettyPhoto[gallery1]" href="../images/demo/gallery/3.png" title="Image 4"><img src="../images/demo/gallery/Mayormita.gif" alt="Title Text" /></a></li>
+        <li class="last"><a rel="prettyPhoto[gallery1]" href="../images/demo/gallery/2.png" title="Image 5"><img src="../images/demo/gallery/Provichado.gif" alt="Title Text" /></a></li>
+      </ul>
+
+      <br class="clear" />
+
+      \<ul>
+        <li>
+          <button type="button" class="btn" id="" data-toggle="modal" data-target="#myModal"><i class="fa fa-home"></i> About Us</button>
+        </li>
+      </ul>
+
+    </div>
 </div>
-<!-- VIDEO RECORDER SECTION -->
+
 <div class="wrapper col5">
   <div id="footer">
-    
+
   </div>
 </div>
 </body>
