@@ -48,7 +48,7 @@ a {
 button {
 	border-radius: 20px;
 	border: 1px solid #FF4B2B;
-	background-color: #FF4B2B;
+	background-color: #800000;
 	color: #FFFFFF;
 	font-size: 12px;
 	font-weight: bold;
@@ -161,9 +161,10 @@ input {
 }
 
 .overlay {
-	background: #FF416C;
-	background: -webkit-linear-gradient(to right, #FF4B2B, #FF416C);
-	background: linear-gradient(to right, #FF4B2B, #FF416C);
+	background: #F2994A;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #F2C94C, #F2994A);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #F2C94C, #F2994A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: 0 0;
@@ -230,4 +231,8 @@ input {
 img{
 	margin-top: -90px;
 	margin-bottom: 40px;
+}
+
+p{
+	color: maroon;
 }
