@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EmoBOT</title>
+    <link rel="stylesheet" href="/style/template.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+</head>
+<body>
+    <div class="page">
+        
+        <span class="menu_toggle">
+            <i class="menu_open fa fa-bars fa-lg"></i>
+            <i class="menu_close fa fa-times fa-lg"></i>
+            <img src="/img/logo.png">
+        </span>
+
+        <ul class="menu_items">
+            <li><a href="homepage.html">Home</a></li>
+            <li><a href="facerecog.html">Face <br> Recognition</a></li>
+            <li><a href="textrecog.html">Text <br> Recognition</a></li>
+            <li><a href="aboutus.html">About Us</a></li>
+            <li><a href="signlog.html">Logout</a></li>
+        </ul>
+
+        <main class="content">
+            <div class="content_inner">
+                <h1>Kamo na bahala sa space</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium totam qui voluptatum architecto quos beatae, itaque aliquam esse consequatur, enim odio quam. Mollitia quod quo, eveniet quibusdam harum culpa explicabo?</p>
+            </div>
+        </main>
+
+    </div>
+
+
+
+    <script type="text/javascript">
+
+        var $page = $('.page');
+
+        $('.menu_toggle').on('click', function() {
+            $page.toggleClass('shazam');
+        });
+
+        $('.content').on('click', function() {
+            $page.removeClass('shazam');
+        });
+
+    </script>
+
+</body>
+</html>
