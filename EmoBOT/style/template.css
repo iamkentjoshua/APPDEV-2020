@@ -157,6 +157,7 @@ html, body {
 h1 {
     padding-bottom: 16px;
     border-bottom: 1px solid #ddd;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 body {
