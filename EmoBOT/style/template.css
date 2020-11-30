@@ -167,4 +167,8 @@ body {
 img {
     margin-left: 100%;
     padding-left: 900px;
-}  
+}
+
+p, ul, li {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
