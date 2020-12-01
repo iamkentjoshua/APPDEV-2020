@@ -172,3 +172,7 @@ img {
 p, ul, li {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+.bot {
+    margin-left: -900px;
+}
